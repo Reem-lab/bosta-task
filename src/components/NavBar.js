@@ -3,7 +3,7 @@ import  '../images/Globe';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import '../styles/NavBar.css';
 import Globe from '../images/Globe';
-import MenuIcon from '@mui/icons-material/Menu';
+import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 import { useSelector, useDispatch } from 'react-redux';
 import { displayShipment } from '../redux/actions/ShipmentsAction';
 import { useNavigate } from "react-router-dom";
@@ -39,7 +39,7 @@ const handleSubmit = async (e) => {
     <div className='nav'>
       <div className='leftNav__side'>
         <Globe className="logo" />
-         <MenuIcon className='navbar__hamburger' />
+        <HiOutlineMenuAlt4 className="navbar__hamburger" />
       </div>
 
       <div className='middleNav__side'>
@@ -90,7 +90,7 @@ const handleSubmit = async (e) => {
         <div className="modal">
           <div onMouseLeave={toggleModal} className="modal-content">
              <h3 className='modal__heading'>Track your shipment</h3>
-             <form onSubmit={handleSubmit}>
+             <form className="form" onSubmit={handleSubmit}>
               <input
              className='input__search'
               type="text"

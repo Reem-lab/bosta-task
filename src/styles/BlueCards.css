@@ -31,3 +31,7 @@
 .blue__card > p > b {
   font-size: 35px;
 }
+
+@media only screen and (max-width: 450px) { 
+  
+}

@@ -36,7 +36,7 @@ const TrackingShipments = () => {
       <div className='tracking__shipments'>
         <h3 className='modal__heading--track'>Track your shipment</h3>
         <div className='search__bar--track'>
-          <form onSubmit={handleSubmit}>
+          <form className="form--shipment" onSubmit={handleSubmit}>
             <input
               className='input__search--track'
               type="text"

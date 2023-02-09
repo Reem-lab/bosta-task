@@ -6,9 +6,8 @@
   align-items: center;
   background-color: #fff;
   height: 100px;
-  padding: 30px 52px;
+  padding: 30px 69px;
   position: fixed;
-  width: 100%;
 }
 
 .navbar__hamburger {
@@ -52,6 +51,11 @@
   align-items: center;
   gap: 57px;
 }
+
+.navbar__hamburger {
+  display: none;
+}
+
 
 .rightNav__side > span {
   display: flex;
@@ -118,22 +122,31 @@ font-size: 15px;
 .bg-search {
   background-color: #e30613;
   width: 50px;
-  height: 50px;
+    height: 47px;
    border-top-right-radius: 6px;
    border-bottom-right-radius: 6px;
-   padding: 10px;
+   border: none;
+   padding: 5px;
 }
+
+.en-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .bg-search-img {
   text-align: center;
   padding: 2px;
 }
 .input__search {
-  width: 210px;
-  height: 50px;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-  border: 1px solid #bac9c9;
+  width: 236px;
+    height: 47px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid #bac9c9;
+    padding: 10px
 }
  
 .input__search:hover {
@@ -141,21 +154,21 @@ font-size: 15px;
 } 
 
 .modal {
-  width: 310px;
-  height: 130px;
-  top: 80px;
-  left: 582px;
-  right: 0;
-  bottom: 0;
-  position: fixed;
-  border-radius: 6px;
-  padding: 10px;
-  background-color: #fff;
-  box-shadow: 19px 3px 73px 1px rgb(213 218 223);
+  width: 352px;
+    height: 153px;
+    top: 80px;
+    left: 582px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    border-radius: 13px;
+    padding: 32px;
+    background-color: #fff;
+    box-shadow: 19px 3px 73px 1px rgb(213 218 223);
 }
 
 
-@media only screen and (max-width: 420px) { 
+@media only screen and (max-width: 450px) { 
      .middleNav__side {
       display: none;
      }
@@ -172,7 +185,9 @@ font-size: 15px;
       padding: 10px;
       width: 450px;
       display: flex;
-      justify-content: space-around;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 17px;
      }
 
      .en-mobile {
@@ -189,10 +204,13 @@ font-size: 15px;
      }
 
      .navbar__hamburger {
-      width: 22px;
+      width: 40px;
       color: #4f5665;
       display: block;
       position: relative;
-      left: 238px;
+      left: 266px;
+      top: 5px;
+      cursor: pointer;
+      font-size: 32px;
      }
 }

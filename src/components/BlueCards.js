@@ -1,8 +1,6 @@
 import React from 'react';
 import leftBlue from '../images/blue square to left.svg';
 import rightBlue from '../images/bluesquaretoright.svg';
-import leftRed from '../images/red square to left.svg';
-import rightRed from '../images/redsquaretoright.svg';
 import '../styles/BlueCards.css';
 
 const BlueCards = () => {
@@ -13,7 +11,6 @@ const BlueCards = () => {
     <div className='blue__cards'>
     <div className='blue__card right__side--card'>
       <img className='blueCard__visible' src={rightBlue} alt='Merchants'/>
-      {/* <img className='redCard__visible'  src={rightRed} alt='Merchants'/> */}
         <p><b>
         15,000 
           </b>

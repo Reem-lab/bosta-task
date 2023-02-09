@@ -9,4 +9,6 @@
 
 body {
   font-family: 'Cairo', sans-serif;
+  overflow-x:scroll;
+overflow-x:hidden;
 }

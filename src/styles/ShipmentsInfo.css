@@ -6,15 +6,65 @@
 
 .no-shipments--div {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 7px;
   background-color: #fef3f2;
   width: 609px;
   height: 80px;
   padding: 16px;
+  margin-top: 70px;
 }
 
 .no-shipments--div > p {
   color: #111619;
-  font-size: 12px;
+  font-size: 15px;
+}
+
+.shipments__info {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tracking__heading {
+  color: #111619;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.lines {
+  width: 643px;
+  height: 22px;
+  display: flex;
+  gap: 2px;
+}
+
+.line {
+  background-color: #0098a5;
+  width: 208px;
+  height: 6px;
+}
+
+.line3 {
+  width: 208px;
+  height: 6px;
+  background-color: #d9f4f8;
+}
+
+.tracking-para {
+  color: #111619;
+  margin-top: 24px;
+  font-size: 16px;
+}
+
+.tracking-time {
+  color: #667085;
+}
+
+.tracking__num {
+  color: #667085;
+  font-size: 14px;
 }

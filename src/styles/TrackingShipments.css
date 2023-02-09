@@ -28,7 +28,8 @@ letter-spacing: 1px;
   height: 60px;
    border-top-right-radius: 6px;
    border-bottom-right-radius: 6px;
-   padding: 15px;
+   /* padding: 15px; */
+   border: none;
 }
 
 .track--nav {
@@ -41,18 +42,26 @@ letter-spacing: 1px;
   display: flex;
 }
 
+.form--shipment {
+ 
+}
+
 .bg-search-img--track {
   text-align: center;
   padding: 2px;
 }
+
 .input__search--track {
-  width: 410px;
+  width: 520px;
   height: 60px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   border: 1px solid #bac9c9;
+  padding: 20px;
 }
  
-.input__search--track:hover {
+
+ .input::focus {
   border: 1px solid #a0afaf;
+  /* border:1px solid #bac9c9; */
 } 
