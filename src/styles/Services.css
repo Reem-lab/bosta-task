@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600;700;900;1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,800;1,900&display=swap');
+
+.services {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-family: 'Lato', sans-serif;
+   padding-top: 90px;
+   gap: 30px;
+}
+
+.secondary__heading {
+  padding-left: 90px;
+  font-size: 30px;
+  color: #111619;
+  font-weight: 600;
+  width: 593px;
+}
+
+.icon {
+  color: #fff;
+}
+
+.leftRight__section {
+  display: flex;
+  gap: 120px;
+  padding-top: 50px;
+}
+
+.leftSide__services {
+  display: flex;
+  padding-left: 120px;
+}
+
+.services__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 47px;
+}
+
+.service__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 243px;
+  color: #475467;
+  font-size: 14px;
+}
+
+.service__item > h4 {
+  font-size: 16px;
+  color: #475467;
+}
+
+.service__item > p {
+  color: #475467;
+  font-weight: 500;
+}
+
+.wrap__services {
+  width: 240px;
+  margin-left: 0
+}

@@ -1,0 +1,58 @@
+.tracking__shipments {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -180px;
+}
+
+
+
+.modal__heading--track {
+color: #4f5665;
+font-size: 22px;
+letter-spacing: 1px;
+}
+
+.search__bar--track {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bg-search--track {
+  background-color: #e30613;
+  width: 60px;
+  height: 60px;
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   padding: 15px;
+}
+
+.track--nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.en {
+  display: flex;
+}
+
+.bg-search-img--track {
+  text-align: center;
+  padding: 2px;
+}
+.input__search--track {
+  width: 410px;
+  height: 60px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: 1px solid #bac9c9;
+}
+ 
+.input__search--track:hover {
+  border: 1px solid #a0afaf;
+} 

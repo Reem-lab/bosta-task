@@ -1,0 +1,20 @@
+.third__heading {
+  color: #667085;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.no-shipments--div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fef3f2;
+  width: 609px;
+  height: 80px;
+  padding: 16px;
+}
+
+.no-shipments--div > p {
+  color: #111619;
+  font-size: 12px;
+}

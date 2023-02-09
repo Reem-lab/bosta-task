@@ -1,0 +1,9 @@
+.partners__logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 41px;
+  position: relative;
+  left: -223px;
+  width: 954px;
+  justify-content: center;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600;700;900;1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,800;1,900&display=swap');
+
+
+.flexible__section {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 44px;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+}
+
+.flexible__img {
+  position: relative;
+  width: 720px;
+  top: -168px;
+  left: -196px;
+}
+
+.flexibleSecondary__heading {
+  font-size: 30px;
+  color: #111619;
+  font-weight: 600;
+  width: 593px;
+}
+
+.woman__photo {
+  clip-path: polygon(46% 0, 48% 0, 73% 26%, 73% 75%, 49% 100%, 47% 100%, 20% 76%, 20% 29%);
+  
+}
+
+.flexible__text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 88px;
+}
+
+.wrap__flexible--text > p {
+  color: #475467;
+  font-weight: 500;
+  font-size: 15px;
+  width: 506px;
+}
+
+
+.p2 {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  margin-top: 12px;
+}
+
+.icon--arrow {
+  color: #A5A5A5;
+  width: 16px;
+}
+
+.wrap__flexible--text > p > a {
+  color: #A5A5A5;
+  text-decoration: none;
+}

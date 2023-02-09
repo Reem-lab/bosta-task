@@ -1,0 +1,33 @@
+.blue__cards {
+  padding-top: 45px ;
+  display: flex;
+  margin: 30px;
+  gap: 25px;
+}
+
+.blue__card {
+  position: relative;
+}
+
+
+.left__side--card {
+  position: relative;
+  top: 73px;
+}
+
+.blue__card > p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -224px;
+  left: -6px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.blue__card > p > b {
+  font-size: 35px;
+}

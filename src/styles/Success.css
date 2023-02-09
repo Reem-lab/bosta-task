@@ -1,0 +1,14 @@
+.sucsess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 210px;
+  padding-bottom: 0;
+  padding-left: 292px;
+}
+
+.sucsess > h2 {
+  color: #262626;
+  font-size: 30px;
+  font-weight: 600;
+}

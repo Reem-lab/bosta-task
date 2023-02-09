@@ -1,0 +1,198 @@
+.nav {
+  display: flex;
+  overflow: hidden;
+  z-index: 1;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  height: 100px;
+  padding: 30px 52px;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar__hamburger {
+  display: none;
+}
+
+.leftNav__side {
+  width: 120px;
+  height: 45px;
+}
+
+.middleNav__side {
+  margin-left: 55px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.middleNav__side > span {
+   display: flex;
+   align-items: center;
+   gap: 4px;
+   color: #4f5665;
+   font-weight: 700;
+}
+
+.anchor__link {
+  color: #4f5665;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.anchor__link:hover {
+  text-decoration: underline;
+}
+
+.rightNav__side {
+  margin-left: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 57px;
+}
+
+.rightNav__side > span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #e30613;
+  font-weight: 700;
+}
+
+.sign__in {
+  text-decoration: none;
+  color: #111619;
+  font-weight: 700;
+}
+
+.sign__in:hover {
+  text-decoration: underline;
+}
+
+.sign__up {
+  text-decoration: none;
+  font-weight: 700;
+  color: #e30613;
+  border: 1px solid #e30613;
+  border-radius: 50px;
+  padding: 11px 33px;
+}
+
+.sign__up:hover {
+  background-color: #e30613;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.arrow__down {
+  width: 22px;
+  height: 20px;
+  filter: opacity(0.5);
+}
+
+/* modal*/
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal__heading {
+color: #4f5665;
+font-size: 15px;
+}
+
+.search__bar {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bg-search {
+  background-color: #e30613;
+  width: 50px;
+  height: 50px;
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   padding: 10px;
+}
+
+.bg-search-img {
+  text-align: center;
+  padding: 2px;
+}
+.input__search {
+  width: 210px;
+  height: 50px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: 1px solid #bac9c9;
+}
+ 
+.input__search:hover {
+  border: 1px solid #a0afaf;
+} 
+
+.modal {
+  width: 310px;
+  height: 130px;
+  top: 80px;
+  left: 582px;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 19px 3px 73px 1px rgb(213 218 223);
+}
+
+
+@media only screen and (max-width: 420px) { 
+     .middleNav__side {
+      display: none;
+     }
+     .leftNav__side {
+      display: flex;
+      justify-content: space-around;
+     }
+
+     .trackShipment--mobile {
+      display: flex;
+     }
+
+     .nav {
+      padding: 10px;
+      width: 450px;
+      display: flex;
+      justify-content: space-around;
+     }
+
+     .en-mobile {
+      display: none;
+     }
+
+     .sign__in {
+      display: none;
+     }
+
+     .sign__up {
+      display: block;
+      display: none;
+     }
+
+     .navbar__hamburger {
+      width: 22px;
+      color: #4f5665;
+      display: block;
+      position: relative;
+      left: 238px;
+     }
+}

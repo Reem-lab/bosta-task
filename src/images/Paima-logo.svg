@@ -1,0 +1,40 @@
+var _path, _path2, _path3, _path4, _path5;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgPaimaLogo(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 146,
+    height: 23,
+    viewBox: "0 0 146 23",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M0 0V22.4325H8.32621L8.43771 18.3065L18.4738 10.0268L8.43771 0H0Z",
+    fill: "#667085"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M21.4844 16.8852L27.2179 22.6187L36.2876 14.2554L45.0598 22.6187L50.877 16.6622L36.1761 2.40723L21.4844 16.8852Z",
+    fill: "#667085"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M89.5349 10.9843L80.6975 2.40723L66.0059 16.8852L71.7394 22.6187L80.8091 14.2554L83.5597 16.8759L83.5504 16.8852L89.284 22.6187L89.4327 22.4794L89.5813 22.6187L92.2483 19.8774L98.3536 14.2554L107.126 22.6187L112.934 16.6622L98.2421 2.40723L89.5349 10.9843Z",
+    fill: "#667085"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M130.366 2.40723L115.675 16.8852L121.408 22.6187L130.478 14.2554L139.25 22.6187L145.058 16.6622L130.366 2.40723Z",
+    fill: "#667085"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M63.0404 0H54.4912V22.6183H63.0404V0Z",
+    fill: "#667085"
+  })));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgPaimaLogo);
+export default __webpack_public_path__ + "2680ec123bc7979189bcf689d4c9b8c0.svg";
+export { ForwardRef as ReactComponent };

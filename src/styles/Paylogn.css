@@ -1,0 +1,27 @@
+.track__form {
+  position: relative;
+}
+
+.track1 {
+  position: relative;
+  top: -193px;
+  left: -46px;
+}
+
+.white__cloud {
+  position: relative;
+  top: -215px;
+  left: -188px;
+}
+
+.blue__cloud {
+  position: relative;
+  top: -306px;
+  left: -338px;
+}
+
+.track__gif {
+  position: relative;
+  top: -278px;
+  left: -45px;
+}

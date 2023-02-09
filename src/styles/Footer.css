@@ -1,0 +1,35 @@
+.footer {
+ display: flex;
+ height: 371px;
+ background-color:#E8F8FA ;
+ justify-content: space-around;
+ padding-top: 85px;
+}
+
+.sixth__heading {
+  color: #4f5665;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.item__list {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.item__list > ul > li {
+  list-style: none;
+  padding-top: 5px;
+}
+
+.item__list > ul > li > a {
+  text-decoration: none;
+  color: #4f5665;
+}
+
+.link__track {
+  text-decoration: underline;
+  color: #4f5665;
+  font-weight: 700; 
+}
