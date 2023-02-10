@@ -15,8 +15,9 @@
 
 ## Deploy Demo 🚀
 
+[Netlify Deploy](https://main--stalwart-kringle-453c6a.netlify.app/)
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ab0d25b2-9579-4b6a-9343-de9326fce109/deploy-status)](https://main--stalwart-kringle-453c6a.netlify.app/)
 
 # Getting Started with Create React App
 
