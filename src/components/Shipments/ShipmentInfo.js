@@ -22,21 +22,34 @@ const ShipmentInfo = ({ shipments }) => {
               <hr className="line"></hr>
               <hr className="line"></hr>
               <hr className="line"></hr>
-          </div> : 
+          </div> :  shipments.data.state === 'DELIVERED_TO_SENDER' ?
           <div className="lines">
           <hr className="line"></hr>
           <hr className="line"></hr>
           <hr className="line3"></hr>
-         </div>}
+         </div> 
+         :
+         <div className="lines">
+         <hr className="line"></hr>
+         <hr className="line3"></hr>
+         <hr className="line3"></hr>
+        </div>    
+        }
           <p>
             {shipments.data.state === 'DELIVERED' ? 
             <p className="tracking-para">
               Your shipper requested a pickup. Bosta will pick it up soon
               <span className="tracking-time">{shipments.data.timestamp}</span>
-            </p> : <p className="tracking-para">
+            </p> 
+            : shipments.data.state === 'DELIVERED_TO_SENDER' ? <p className="tracking-para">
             Order is canceled and it will be returned back to the shipper
             <span className="tracking-time">{shipments.data.timestamp}</span>
-              </p>}
+              </p> : 
+                   <p className="tracking-para">
+                   Your shipper requested a pickup. Bosta will pick it up soon
+                   <span className="tracking-time">{shipments.data.timestamp}</span>
+                     </p>
+              }
           </p>
         </div>
       )}
