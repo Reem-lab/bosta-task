@@ -97,13 +97,14 @@
       width: 424px;
       height: 307px;
       position: relative;
-      top: -580px;
-      left: 239px;
+      top: -644px;
+      left: 199px;
     }
 
-  .tracks__form {
-    /* position: relative; */
-     /* top: -418px;
-    left: 32px;  */
-  }
+    .tracks__form {
+      position: relative;
+      top: -474px;
+      left: 10px;
+    }
+
 }
