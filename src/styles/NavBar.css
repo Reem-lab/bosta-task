@@ -168,7 +168,7 @@ font-size: 15px;
 }
 
 
-@media only screen and (max-width: 450px) { 
+@media only screen and (max-width: 591px) { 
      .middleNav__side {
       display: none;
      }
@@ -183,7 +183,7 @@ font-size: 15px;
 
      .nav {
       padding: 10px;
-      width: 450px;
+      width: 516px;
       display: flex;
       justify-content: flex-start;
       align-items: center;

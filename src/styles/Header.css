@@ -68,7 +68,7 @@
   left: 41px;
 }
 
-@media only screen and (max-width: 450px) { 
+@media only screen and (max-width: 591px) { 
     .header {
       display: flex;
       flex-direction: column;

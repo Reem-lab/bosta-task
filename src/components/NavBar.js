@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
+
 const NavBar = () => {
   const [modal, setModal] = useState(false);
   const [shipment, setShipment] = useState('');
@@ -23,6 +24,7 @@ const handleSubmit = async (e) => {
   navigate('/tracking-shipments')
 }
   
+
 
   const toggleModal = () => {
     setModal(!modal)

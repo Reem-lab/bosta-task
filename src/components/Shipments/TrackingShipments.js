@@ -20,18 +20,20 @@ const TrackingShipments = () => {
     dispatch(displayShipment(trackingCode));
   }
 
+
+
   return (
     <>
       <div className='track--nav'>
         <div className='leftNav__side'>
           <Globe className="logo" />
         </div>
-        <span className='en'>
+        <p className='en'>
           En
           <div className='arrow__down'>
             <KeyboardArrowDownIcon className='arrow__down' />
           </div>
-        </span>
+        </p>
       </div>
       <div className='tracking__shipments'>
         <h3 className='modal__heading--track'>Track your shipment</h3>
