@@ -7,3 +7,12 @@
   width: 954px;
   justify-content: center;
 }
+
+@media only screen and (max-width: 450px) { 
+.partners__logo {
+  width: 375px;
+  position: relative;
+  left: 61px;
+  gap: 19px;
+}
+}

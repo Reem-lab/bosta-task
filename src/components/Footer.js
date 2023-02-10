@@ -10,6 +10,7 @@ const Footer = () => {
         <Globe className="logo" />
       </div>
 
+<div className='lists'>
       <div className='item__list'>
         <h6 className='sixth__heading'>Products</h6>
         <ul>
@@ -48,6 +49,8 @@ const Footer = () => {
           <li><a href='#FAQ'>FAQ</a></li>
           <li><a href='#Help Center'>Help Center</a></li>
         </ul>
+      </div>
+
       </div>
 
  

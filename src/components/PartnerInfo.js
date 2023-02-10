@@ -3,6 +3,7 @@ import CallMadeIcon from '@mui/icons-material/CallMade';
 import '../styles/PartnerInfo.css';
 import PartnersLogos from './PartnersLogos';
 import PartnersTracks from '../images/partnersTracks.PNG';
+import partnerTrackRB from '../images/partnersTracks-removebg-preview.png';
 
 const PartnerInfo = () => {
   return (
@@ -24,12 +25,13 @@ const PartnerInfo = () => {
            </div>
        </div>
 
-       <h4>Trusted by top companies in the region</h4>
+       <h4 >Trusted by top companies in the region</h4>
        <PartnersLogos />
 
 
         <div className='partners__tracks--last'>
-          <img src={PartnersTracks} alt='partnersTracks' />
+          <img className='partner-tracks--dt' src={PartnersTracks} alt='partnersTracks' />
+          <img className='partner-tracks--mv' src={partnerTrackRB} alt='partnersTracks' />
           <h5 className='fivth__heading'>Sign Up & Start Shipping Today</h5>
           <button className='partner__btn' type='button'>Start Shipping</button>
         </div>

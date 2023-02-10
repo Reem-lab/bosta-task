@@ -12,3 +12,18 @@
   font-size: 30px;
   font-weight: 600;
 }
+
+
+@media only screen and (max-width: 591px) { 
+  .sucsess > h2 {
+    font-size: 28px;
+    font-weight: 700;
+    width: 296px;
+    text-align: center;
+    margin-right: 9px;
+  }
+
+  .sucsess {
+    padding-left: 211px;
+  }
+  }

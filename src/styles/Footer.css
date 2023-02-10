@@ -33,3 +33,24 @@
   color: #4f5665;
   font-weight: 700; 
 }
+
+
+@media only screen and (max-width: 450px) { 
+  .footer {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    padding-left: 37px;
+    padding-bottom: 125px;
+  }
+
+
+ .lists {
+  padding-top: 10px;
+  padding-left: 12px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+ }
+  
+}
