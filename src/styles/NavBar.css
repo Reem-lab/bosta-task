@@ -160,6 +160,7 @@ font-size: 15px;
     left: 582px;
     right: 0;
     bottom: 0;
+    cursor: pointer;
     position: fixed;
     border-radius: 13px;
     padding: 32px;
@@ -169,6 +170,7 @@ font-size: 15px;
 
 .trackShipment--mobile:hover {
   height: 50px;
+  cursor: pointer;
   padding: 7px;
   border-radius: 7px;
   background-color: #fff;
