@@ -28,7 +28,6 @@ letter-spacing: 1px;
   height: 60px;
    border-top-right-radius: 6px;
    border-bottom-right-radius: 6px;
-   /* padding: 15px; */
    border: none;
 }
 
@@ -63,5 +62,17 @@ letter-spacing: 1px;
 
  .input::focus {
   border: 1px solid #a0afaf;
-  /* border:1px solid #bac9c9; */
 } 
+
+
+@media only screen and (max-width: 591px) { 
+.input__search--track {
+  width: 317px;
+}
+
+.tracking__shipments {
+  position: relative;
+  top: -91px;
+}
+
+  }

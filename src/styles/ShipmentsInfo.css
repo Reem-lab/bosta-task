@@ -58,6 +58,8 @@
   color: #111619;
   margin-top: 24px;
   font-size: 16px;
+  display: flex;
+  gap: 15px;
 }
 
 .tracking-time {
@@ -72,3 +74,30 @@
 .form {
   display: flex;
 }
+
+@media only screen and (max-width: 591px) { 
+     
+    .no-shipments--div {
+      width: 392px;
+      height: 138px;
+    }
+    
+    .tracking-para {
+    font-size: 14px;
+    font-weight: 700;
+    width: 271px;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    }
+
+    .tracking-para > p {
+      text-align: center;
+    }
+
+    .lines {
+      width: 405px;
+    }
+  
+    }
+  

@@ -83,7 +83,9 @@ const handleSubmit = async (e) => {
       </div>
        
        <div className='rightNav__side'>
-          <span className='trackShipment--mobile' onMouseOver={toggleModal}>
+          <span className='trackShipment--mobile' 
+          onMouseOver={toggleModal}
+          >
             Track Shipment
             <div className='arrow__down' >
             <KeyboardArrowDownIcon />

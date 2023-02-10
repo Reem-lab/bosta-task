@@ -164,7 +164,15 @@ font-size: 15px;
     border-radius: 13px;
     padding: 32px;
     background-color: #fff;
-    box-shadow: 19px 3px 73px 1px rgb(213 218 223);
+    box-shadow: -1px 2px 15px -3px rgba(138,126,138,0.71);
+}
+
+.trackShipment--mobile:hover {
+  height: 50px;
+  padding: 7px;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: -1px 2px 15px -3px rgba(138,126,138,0.71);
 }
 
 
