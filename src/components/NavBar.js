@@ -7,6 +7,7 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 import { useSelector, useDispatch } from 'react-redux';
 import { displayShipment } from '../redux/actions/ShipmentsAction';
 import { useNavigate } from "react-router-dom";
+import Menu from './Menu';
 
 
 
@@ -17,6 +18,15 @@ const NavBar = () => {
   const shipments = useSelector((state) => state.ShipmentsReducer);
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const [menu, setmenu] = useState(false);
+
+  const showMenu = () => {
+    setmenu(true);
+  };
+
+  const onClickHandler = () => {
+    setmenu(false);
+  };
 
 const handleSubmit = async (e) => {
   e.preventDefault();
@@ -37,11 +47,13 @@ const handleSubmit = async (e) => {
   }
 
   return (
+    <>
+    {menu && <Menu onclick={onClickHandler}/>}
     <nav>
     <div className='nav'>
       <div className='leftNav__side'>
         <Globe className="logo" />
-        <HiOutlineMenuAlt4 className="navbar__hamburger" />
+        <HiOutlineMenuAlt4 className="navbar__hamburger"  onClick={showMenu}/>
       </div>
 
       <div className='middleNav__side'>
@@ -111,6 +123,7 @@ const handleSubmit = async (e) => {
        </div>
     </div>
     </nav>
+    </>
   )
 }
 
