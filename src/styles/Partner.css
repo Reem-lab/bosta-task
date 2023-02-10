@@ -5,8 +5,7 @@
   left: 385px;
 }
 
-
-@media only screen and (max-width: 450px) { 
+@media only screen and (max-width: 450px) {
   .background__partner {
     position: relative;
     top: 134px;
@@ -14,5 +13,4 @@
     height: 900px;
     margin-bottom: 652px;
   }
-  
 }

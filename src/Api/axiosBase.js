@@ -1,3 +1,5 @@
-import axios from "axios";
+import axios from 'axios';
 
-export const AxiosBase = axios.create()
+const AxiosBase = axios.create();
+
+export default AxiosBase;

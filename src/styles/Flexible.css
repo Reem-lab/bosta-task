@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600;700;900;1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,800;1,900&display=swap');
 
-
 .flexible__section {
   display: flex;
   justify-content: center;
@@ -25,7 +24,6 @@
 
 .woman__photo {
   clip-path: polygon(46% 0, 48% 0, 73% 26%, 73% 75%, 49% 100%, 47% 100%, 20% 76%, 20% 29%);
-  
 }
 
 .flexible__text {
@@ -42,7 +40,6 @@
   width: 506px;
 }
 
-
 .p2 {
   display: flex;
   align-items: center;
@@ -51,16 +48,16 @@
 }
 
 .icon--arrow {
-  color: #A5A5A5;
+  color: #a5a5a5;
   width: 16px;
 }
 
 .wrap__flexible--text > p > a {
-  color: #A5A5A5;
+  color: #a5a5a5;
   text-decoration: none;
 }
 
-@media only screen and (max-width: 450px) { 
+@media only screen and (max-width: 450px) {
   .flexible__section {
     display: flex;
     flex-direction: column-reverse;
@@ -90,12 +87,11 @@
 
   .wrap__flexible--text > p {
     width: 351px;
-    font-weight: 16px;
+    font-size: 16px;
     text-align: center;
   }
 
   .p2 {
     padding-left: 122px;
   }
-  
 }

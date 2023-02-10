@@ -1,9 +1,9 @@
 .footer {
- display: flex;
- height: 371px;
- background-color:#E8F8FA ;
- justify-content: space-around;
- padding-top: 85px;
+  display: flex;
+  height: 371px;
+  background-color: #e8f8fa;
+  justify-content: space-around;
+  padding-top: 85px;
 }
 
 .sixth__heading {
@@ -13,9 +13,9 @@
 }
 
 .item__list {
-   display: flex;
-   flex-direction: column;
-   gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .item__list > ul > li {
@@ -31,7 +31,7 @@
 .link__track {
   text-decoration: underline;
   color: #4f5665;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 .lists {
@@ -39,8 +39,7 @@
   gap: 100px;
 }
 
-
-@media only screen and (max-width: 450px) { 
+@media only screen and (max-width: 450px) {
   .footer {
     display: flex;
     flex-direction: column;
@@ -49,13 +48,11 @@
     padding-bottom: 125px;
   }
 
-
- .lists {
-  padding-top: 10px;
-  padding-left: 12px;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 25px;
- }
-  
+  .lists {
+    padding-top: 10px;
+    padding-left: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
 }

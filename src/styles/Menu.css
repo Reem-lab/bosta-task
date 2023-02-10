@@ -40,7 +40,7 @@
   font-weight: 600;
   height: 50px;
   border-radius: 46px;
-  border: 1px solid #4F5665;
+  border: 1px solid #4f5665;
   cursor: pointer;
   font-size: 17px;
   background-color: #fff;
@@ -59,7 +59,6 @@
   border-radius: 46px;
   border: 1px solid #e30613;
   cursor: pointer;
-  color: #4f5665;
   font-size: 17px;
   background-color: #fff;
 }
@@ -69,10 +68,10 @@
   color: #fff;
 }
 
-
-.horizontal_dotted_line  {
-  border-bottom: 1px dotted #4F5665;
+.horizontal_dotted_line {
+  border-bottom: 1px dotted #4f5665;
   content: '';
+
   /* flex: 1; */
 }
 
@@ -83,7 +82,7 @@
 }
 
 .menu--list {
-   width: 360px;
+  width: 360px;
 }
 
 .li-menu {
@@ -92,11 +91,8 @@
   align-items: center;
 }
 
-
-
-
 .exit-div > svg {
-  color: #4F5665;
+  color: #4f5665;
   cursor: pointer;
   position: relative;
   top: 29px;

@@ -6,9 +6,8 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: 'Cairo', sans-serif;
-  overflow-x:scroll;
-overflow-x:hidden;
+  overflow-x: scroll;
+  overflow-x: hidden;
 }

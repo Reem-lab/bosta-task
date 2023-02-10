@@ -1,5 +1,5 @@
 .blue__cards {
-  padding-top: 45px ;
+  padding-top: 45px;
   display: flex;
   margin: 30px;
   gap: 25px;
@@ -8,7 +8,6 @@
 .blue__card {
   position: relative;
 }
-
 
 .left__side--card {
   position: relative;
@@ -32,19 +31,19 @@
   font-size: 35px;
 }
 
-@media only screen and (max-width: 450px) { 
-   .blue__cards {
+@media only screen and (max-width: 450px) {
+  .blue__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-   }
+  }
 
-   .blue__card > img {
+  .blue__card > img {
     width: 171px;
     height: 227px;
-   }
+  }
 
-   .left__side--card {
+  .left__side--card {
     position: relative;
     top: 69px;
     left: 16px;
@@ -55,19 +54,4 @@
     padding: 8px;
     text-align: center;
   }
-
-
-  /* .right__side--card {
-    position: relative;
-  } */
-
-  /* .blue-card--mv {
-    display: none;
-  }
-
-
-  .red-card--mv {
-    display: ;
-  } */
-  
 }

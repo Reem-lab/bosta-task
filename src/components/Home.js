@@ -7,7 +7,6 @@ import Flexible from './Flexible';
 import Partner from './Partner';
 import Footer from './Footer';
 
-
 const Home = () => (
   <div className="wrap">
     <Navbar />

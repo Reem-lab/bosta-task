@@ -1,20 +1,18 @@
 .tracking__shipments {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: -180px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -180px;
 }
 
-
-
 .modal__heading--track {
-color: #4f5665;
-font-size: 22px;
-letter-spacing: 1px;
+  color: #4f5665;
+  font-size: 22px;
+  letter-spacing: 1px;
 }
 
 .search__bar--track {
@@ -26,9 +24,9 @@ letter-spacing: 1px;
   background-color: #e30613;
   width: 60px;
   height: 60px;
-   border-top-right-radius: 6px;
-   border-bottom-right-radius: 6px;
-   border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
 }
 
 .track--nav {
@@ -42,7 +40,7 @@ letter-spacing: 1px;
 }
 
 .form--shipment {
- display: flex;
+  display: flex;
 }
 
 .bg-search-img--track {
@@ -58,21 +56,18 @@ letter-spacing: 1px;
   border: 1px solid #bac9c9;
   padding: 20px;
 }
- 
 
- .input::focus {
+.input:focus {
   border: 1px solid #a0afaf;
-} 
-
-
-@media only screen and (max-width: 591px) { 
-.input__search--track {
-  width: 317px;
 }
 
-.tracking__shipments {
-  position: relative;
-  top: -91px;
-}
-
+@media only screen and (max-width: 591px) {
+  .input__search--track {
+    width: 317px;
   }
+
+  .tracking__shipments {
+    position: relative;
+    top: -91px;
+  }
+}

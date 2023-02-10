@@ -1,8 +1,6 @@
-import {
-  AxiosBase
-} from "../../Api/axiosBase";
-export const LOAD_SHIPMENTS = 'LOAD_SHIPMENTS';
+import AxiosBase from '../../Api/axiosBase';
 
+export const LOAD_SHIPMENTS = 'LOAD_SHIPMENTS';
 
 export const loadShipments = (payload) => ({
   type: LOAD_SHIPMENTS,
@@ -11,13 +9,9 @@ export const loadShipments = (payload) => ({
 
 async function fetchData(trackingNumber) {
   const response = AxiosBase.get(`https://tracking.bosta.co/shipments/track/${trackingNumber}?lang=en`)
-    .then((response) => {
-      return response.data;
-    })
-    .catch((error) => {
-      return error;
-    });
-  return await response;
+    .then((response) => response.data)
+    .catch((error) => error);
+  return response;
 }
 
 export const displayShipment = (trackingNum) => async (dispatch) => {
@@ -26,23 +20,22 @@ export const displayShipment = (trackingNum) => async (dispatch) => {
     dispatch(loadShipments({
       success: false,
       message: shipmentsObj.response.data.error,
-      loaded: true
+      loaded: true,
     }));
     return;
   }
 
-
   const shipmentsTemp = {
     provider: shipmentsObj.provider,
-      trackingNumber: shipmentsObj.TrackingNumber,
-      promisedDate: shipmentsObj.PromisedDate,
-      state: shipmentsObj.CurrentStatus?.state,
-      timestamp: shipmentsObj.CurrentStatus?.timestamp,
+    trackingNumber: shipmentsObj.TrackingNumber,
+    promisedDate: shipmentsObj.PromisedDate,
+    state: shipmentsObj.CurrentStatus?.state,
+    timestamp: shipmentsObj.CurrentStatus?.timestamp,
   };
 
   dispatch(loadShipments({
     success: true,
     data: shipmentsTemp,
-    loaded: true
+    loaded: true,
   }));
 };

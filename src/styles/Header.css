@@ -4,7 +4,7 @@
   font-family: 'Poppins', sans-serif;
   padding-top: 110px;
   padding-left: 118px;
-  background-image: linear-gradient(to bottom,rgb(252,254,254), rgb(246,253,253), rgb(238,251,251) );
+  background-image: linear-gradient(to bottom, rgb(252, 254, 254), rgb(246, 253, 253), rgb(238, 251, 251));
   display: flex;
   gap: 12px;
   width: 100vw;
@@ -23,7 +23,6 @@
   color: #111619;
 }
 
-
 .header__paragraph {
   color: #667085;
   font-weight: 600;
@@ -32,11 +31,11 @@
 }
 
 .header__btn {
-   color: #fff;
-   background-color: #e30613;
-   border: none;
-   padding: 11px;
-   margin-top: 31px;
+  color: #fff;
+  background-color: #e30613;
+  border: none;
+  padding: 11px;
+  margin-top: 31px;
   border-radius: 8px;
   width: 109px;
   font-size: 17px;
@@ -58,8 +57,8 @@
 
 .tracks__form {
   position: relative;
-    top: -418px;
-    left: 32px; 
+  top: -418px;
+  left: 32px;
 }
 
 .man__photo {
@@ -68,43 +67,41 @@
   left: 41px;
 }
 
-@media only screen and (max-width: 591px) { 
-    .header {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-    }
+@media only screen and (max-width: 591px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
-    .header__heading {
-      width: 472px;
-      font-size: 46px;
-      text-align: center;
-      position: relative;
-      left: -63px;;
-    }
+  .header__heading {
+    width: 472px;
+    font-size: 46px;
+    text-align: center;
+    position: relative;
+    left: -63px;
+  }
 
-    .header__paragraph {
-      text-align: center;
+  .header__paragraph {
+    text-align: center;
     position: relative;
     left: -13px;
     font-size: 16px;
     width: 363px;
-    }
+  }
 
+  .man__photo {
+    width: 424px;
+    height: 307px;
+    position: relative;
+    top: -644px;
+    left: 199px;
+  }
 
-    .man__photo {
-      width: 424px;
-      height: 307px;
-      position: relative;
-      top: -644px;
-      left: 199px;
-    }
-
-    .tracks__form {
-      position: relative;
-      top: -474px;
-      left: 10px;
-    }
-
+  .tracks__form {
+    position: relative;
+    top: -474px;
+    left: 10px;
+  }
 }
